@@ -1,7 +1,10 @@
 # Adapt these values for your own Linux image. No spaces around =.
-REMOTE_HOST=10.121.4.224
+# Remove < and > where needed.
+# This is an example for the hpdm171 module using the hds_python conda env.
+
+REMOTE_HOST=<enter_your_ip_address>
 REMOTE_USER=ubuntu
-PEM_KEY=./dev_f2f_2627.pem
+PEM_KEY=./<enter_your_pem_key_file_name>.pem
 ENV_NAME=hds_python
 PORT=4569
 REMOTE_DIR=hpdm171
