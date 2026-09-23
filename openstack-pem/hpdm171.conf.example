@@ -1,0 +1,7 @@
+# Adapt these values for your own Linux image. No spaces around =.
+REMOTE_HOST=10.121.4.224
+REMOTE_USER=ubuntu
+PEM_KEY=./dev_f2f_2627.pem
+ENV_NAME=hds_python
+PORT=4569
+REMOTE_DIR=hpdm171
